@@ -1,0 +1,58 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.banner {
+  background-color: #617abc;
+}
+
+.special {
+  margin-top: 10rem;
+}
+
+.special:hover {
+  text-shadow: 1px 1px 25px #fff;
+  transition: all 250ms ease;
+}
+
+.banner-content {
+  text-shadow: none;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  border-color: #fff;
+  transition: all 250ms ease;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.icon {
+  transition: all 250ms ease;
+}
+
+.btn {
+  transition: all 250ms ease;
+  border-radius: 5px;
+}
+
+.btn:active {
+  top: 1.5em;
+  transform: translate(0, .25em);
+}
+
+.btn-ghost:hover .icon {
+  transform: translate(0, -.5em);
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #fff;
+  transition: all 250ms ease;
+}
+
+.move:hover {
+  transform: translate(0, -.5em);
+  transition: all 250ms ease;
+}
